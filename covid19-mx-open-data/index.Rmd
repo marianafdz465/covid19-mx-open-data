@@ -1,0 +1,48 @@
+---
+title: "Datos Abiertos PADeCI"
+site: distill::distill_website
+description: |
+  Bienvenido al repoositorio de Datos Abiertos de PADeCI
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
+## Base de Datos COVID
+
+Conforme al Decreto publicado en el diario Oficial de la Federación el 20 de Febrero del 2015, que establece la  regulación  en  materia  de Datos  Abiertos, la  Dirección  General  de  Epidemiología,  con  base  en  los  ordenamientos aplicables en dicha materia, pone a disposición de la población en general, las bases históricas publicadas  desde el  pasado  14  de  abril  del  2020  sobre los  casos  asociados  a  COVID-19 con el  propósito  de  facilitar a todos los usuarios que la requieran, el acceso, uso, reutilización y redistribución de la misma.
+
+
+```{r library, message=FALSE, warning=FALSE, include=FALSE}
+library(DT)
+library(tidyverse)
+```
+
+```{r create_tbl, include=FALSE}
+tbl <- 
+  tibble::tribble(
+    ~url,
+    '<a href="https://en.wikipedia.org/wiki/">Wikipedia</a>',
+    '<a href="https://ups.com">UPS</a>')
+```
+
+
+```{r use_dt, echo=FALSE}
+tbl %>% DT::datatable(escape = FALSE)
+```
+
+
+
+```
+
+
+
+
+
+
+

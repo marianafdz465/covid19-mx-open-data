@@ -1,0 +1,21 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2020-12-08T18:58:25-06:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Datos Abiertos PADeCI",
+      "description": "Bienvenido al repoositorio de Datos Abiertos de PADeCI",
+      "author": [],
+      "contents": "\nBase de Datos COVID\nConforme al Decreto publicado en el diario Oficial de la Federación el 20 de Febrero del 2015, que establece la regulación en materia de Datos Abiertos, la Dirección General de Epidemiología, con base en los ordenamientos aplicables en dicha materia, pone a disposición de la población en general, las bases históricas publicadas desde el pasado 14 de abril del 2020 sobre los casos asociados a COVID-19 con el propósito de facilitar a todos los usuarios que la requieran, el acceso, uso, reutilización y redistribución de la misma.\n\n\n{\"x\":{\"filter\":\"none\",\"data\":[[\"1\",\"2\"],[\"<a href=\\\"https://en.wikipedia.org/wiki/\\\">Wikipedia<\\/a>\",\"<a href=\\\"https://ups.com\\\">UPS<\\/a>\"]],\"container\":\"<table class=\\\"display\\\">\\n  <thead>\\n    <tr>\\n      <th> <\\/th>\\n      <th>url<\\/th>\\n    <\\/tr>\\n  <\\/thead>\\n<\\/table>\",\"options\":{\"order\":[],\"autoWidth\":false,\"orderClasses\":false,\"columnDefs\":[{\"orderable\":false,\"targets\":0}]}},\"evals\":[],\"jsHooks\":[]}\n\n\n\n\n\n\n\n```{.r .distill-force-highlighting-css}\n\n\n",
+      "last_modified": "2020-12-08T18:58:25-06:00"
+    }
+  ],
+  "collections": []
+}
